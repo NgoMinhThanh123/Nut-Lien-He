@@ -35,6 +35,10 @@ This plugin provides contact buttons for the interface, including: Messenger, Za
 
 - If you want to contribute to the development of the plugin, you can submit a pull request or bug report.
 
+## License
+
+GPL v2
+
 ## Author
 
 Ngo Minh Thanh
