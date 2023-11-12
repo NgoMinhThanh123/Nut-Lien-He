@@ -1,0 +1,186 @@
+
+		#gom-all-in-one {
+          width: 10%; 
+          height: 10%; 
+          position: fixed;
+          top: 35%;
+          z-index: 999;
+          right: -90px;
+        }
+        
+        .phone-vr-img-circle {
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            height: 100%;
+            position: relative;
+        }
+        .alo-ph-text {
+            background-color: #d40707;
+            color: #fff;
+            border-radius: 50px;
+            position: absolute ;
+            text-align: left;
+            padding-top: 13px;
+            width: 200px;
+            font-size: 15.5px;
+            height: 100%;
+            font-weight: bold;
+            display: none;
+            left: -160px;
+        padding-left: 5px;
+        }
+        
+        
+        #fanpage-vr .phone-vr-circle-fill {
+          background: radial-gradient(circle, transparent 0%, rgba(255, 0, 0, 1) 80%);
+          background_color: red;
+        }
+        
+        #zalo-vr .phone-vr-circle-fill {
+          background: radial-gradient(circle, transparent 0%, rgba(0, 0, 255, 1) 80%);
+          background_color: blue;
+        }
+        
+        #phone-vr .phone-vr-circle-fill {
+          background: radial-gradient(circle, transparent 0%, rgba(0, 255, 0, 1) 80%);
+          background_color: green;
+        }
+        
+         #go-to-top-vr .phone-vr-circle-fill {
+          background: radial-gradient(circle, transparent 0%, rgba(0, 255, 0, 1) 80%);
+          background_color: green;
+        }
+        
+        .button-contact {
+          display: block;
+          margin: 10px;
+          cursor: pointer;
+          width: 50px; 
+          height: 50px; 
+          border-radius: 50%;
+          text-align: center; 
+        }
+        
+        .phone-vr {
+          display: block;
+          position: relative;
+          width: 100%;
+          height: 100%;
+        }
+        
+        .phone-vr-circle-fill {
+          position: absolute;
+          border-radius: 50%;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          animation: wave 2s linear infinite;
+        }
+        
+        .phone-vr-img-circle {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+          position: relative;
+        }
+        
+        .phone-vr-img-circle:hover{
+            color: white;
+        }
+        
+
+        #fanpage-vr .phone-vr-img-circle img {
+          max-width: 100%; 
+          max-height: 100%; 
+          animation: shake 1s infinite;
+        }
+        
+        #zalo-vr .phone-vr-img-circle img {
+          max-width: 60%; 
+          max-height: 60%; 
+          animation: shake  1s infinite;
+        }
+        
+        #phone-vr .phone-vr-img-circle img {
+          max-width: 60%; 
+          max-height: 60%; 
+          animation: shake 1s infinite;
+        }
+        
+        @keyframes shake {
+          0% {
+            transform: rotate(0deg);
+          }
+          25% {
+            transform: rotate(10deg);
+          }
+          50% {
+            transform: rotate(-10deg);
+          }
+          75% {
+            transform: rotate(10deg);
+          }
+          100% {
+            transform: rotate(0deg);
+          }
+        }
+        
+        #fanpage-vr .phone-vr-img-circle {
+            background: blue;
+            opacity: 0.9;
+        }
+        
+        
+        #zalo-vr .phone-vr-img-circle {
+            background: blue;
+            opacity: 0.9;
+        }
+        
+        #phone-vr .phone-vr-img-circle {
+            background: #d40707;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            position: relative;
+        }
+        
+         #go-to-top-vr .phone-vr-img-circle {
+            background: #d40707;
+        }
+        
+        #fanpage-vr:hover, #zalo-vr:hover {
+            background: black;
+        }
+        
+        
+        #fanpage-vr, #zalo-vr, #phone-vr {
+            position: relative;
+        }
+     
+        
+        .phone-vr-img-circle:hover .alo-ph-text {
+            display: block;
+        }
+        
+        #goToTop {
+           display: none;
+            position: fixed;
+            bottom: 70px;
+            right: -7px;
+            z-index: 999;
+            background: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            padding: 10px;
+            font-size: 18px;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            line-height: 10px;
+        }
